@@ -147,6 +147,7 @@ width: 90%;
     .header{
         position: relative;
     }
+    
     .text{
       
         
@@ -317,7 +318,7 @@ display: block;
         width: 250px;
         
 
-        margin :40px,auto;
+        margin :10px auto;
         height: auto;
 color: white;
 
@@ -357,6 +358,6 @@ color: white;
                 vertical-align: middle;
                 margin-right: 20px;
             }
-            
+          
            
 }
