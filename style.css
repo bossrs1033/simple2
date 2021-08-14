@@ -1,12 +1,14 @@
 *{
     margin: 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+         
     padding: 0;
 }
 .header{
        min-height: 100vh;
 width: 100%;
        background-image: linear-gradient(rgba(0,0,0,0.7));
-       background-image: url("images/wp2990289-1366x768-hd-wallpapers-nature.jpg");
+       background-image: url("/project/images/wp2990289-1366x768-hd-wallpapers-nature.jpg");
       background-position: center;
       background-color: green;
       background-size: cover;
@@ -56,7 +58,7 @@ ul a:hover{
     position: absolute;
     padding: 20px;
     top: 50%;
-    border: 1px solid white;
+    border: 2px solid white;
     left: 50%;
    transform: translate(-50%,-50%);
    text-align: center;
@@ -123,7 +125,7 @@ width: 90%;
     color: white;
     display: none;
 }
-@media(max-width:700px){
+@media screen and (max-width: 480px){
     .row{
         display: flex;
         flex-direction: column;
@@ -147,18 +149,31 @@ width: 90%;
         position: relative;
     }
     .text{
-        position: absolute;
-        padding: 20px;
-        margin: 20px;
-
-        text-align:center;
-        top: 50%;
-        border: 1px solid white;
-        left: 50%;
-       transform: translate(-50%,-50%);
-       text-align: center;
-    width: 90%;
-    }
+      
+        
+            position: absolute;
+            padding: 20px;
+            margin: auto;
+            top: 40%;
+            border: 2px solid white;
+            left: 44%;
+           transform: translate(-50%,-50%);
+           text-align: center;
+        width: 70%;
+        }
+     
+        .text h2{
+            font-size: auto;
+            margin-bottom: 15px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+        }
+        .text p{
+            color: white;
+            font-size: auto;
+        }
+              
+    
 
    .link{
     
@@ -228,22 +243,32 @@ margin-top: 15px;
 }
 .contact{
     background-color: #69ff44;
-    height: 300px;
+    height: auto;
     display: flex;
+    flex-direction: row;
     padding: 20px;
     justify-content:space-evenly;
-
 
 }
 .card{
 background-color:white;
 
-width: 500px;
-height: 300px;
+width: 100%;
+
+
+height:auto;
+
 margin-left: 20px;
 }
 .card li{
-display: inline-block;
+
+display: block;
+}
+.card h1{
+    text-align: center;
+}
+.card ul{
+  float: left;
 }
 #address {
     font-size:25px;
@@ -268,6 +293,7 @@ display: inline-block;
     color: #55acee;
     font-size: 50px;
     margin-right: 20px;
+    
     vertical-align: middle;
 }
 .contact .fa-instagram-square{
@@ -283,27 +309,30 @@ display: inline-block;
     vertical-align: middle;
     margin-right: 20px;
 }
-@media(max-width:700px){
-    .card{
+@media screen and (max-width: 480px){
+   
+    .contact{
+        background-color: #69ff44;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: inherit;
+     
+    
+    }
+     .card{
         background-color:rgb(48, 39, 85);
         
-        width: 100%;
-        display: inline-flex;
+        width: 250px;
+        
 
-        margin :20px;
+        margin :40px,auto;
         height: auto;
 color: white;
 
         }
-        .contact{
-            background-color: #69ff44;
-          
-           display: contents;
-            padding: 20px;
-            justify-content:space-evenly;
-        
-        
-        }
+    
         .add{
             color: white;
         }
