@@ -118,6 +118,7 @@ width: 90%;
     background-color: tomato;
     padding: 30px 15px;
     text-align: center;
+    margin-top: 20px;
     
 }
  .link .fa{
@@ -134,13 +135,15 @@ width: 90%;
       
     
     }
+
     .col{
         width: 100%;
-    height: min-content;
+    height: auto;
     background-color: teal;
     padding: 20px ;
     color: white;
-    margin: 20px ;
+    margin:auto ;
+    margin-bottom: 20px;
     line-height:1.4;
     font-size: 0.5cm;
     }
@@ -230,7 +233,9 @@ margin-top: 15px;
     cursor: pointer;
 }
 
-
+#carouselExampleIndicators{
+    margin:10px;
+}
 }
 .contact{
     background-color: #69ff44;
@@ -305,8 +310,8 @@ display: block;
     .contact{
         background-color: #69ff44;
         height: auto;
-        display: flex;
-        flex-direction: column;
+        display: block;
+      
         padding: 20px;
         justify-content: inherit;
      
@@ -315,10 +320,11 @@ display: block;
      .card{
         background-color:rgb(48, 39, 85);
         
-        width: 250px;
-        
+        width: 100%;
+        padding: 10px;
+      
 
-        margin :10px auto;
+        margin : 10px auto;
         height: auto;
 color: white;
 
