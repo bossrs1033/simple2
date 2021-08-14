@@ -1,8 +1,7 @@
 *{
     margin: 0;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-         
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .header{
        min-height: 100vh;
@@ -71,7 +70,7 @@ width: 90%;
 .text h2{
     font-size: 30px;
     margin-bottom: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
     color: white;
 }
 .text p{
@@ -154,24 +153,15 @@ width: 90%;
             position: absolute;
             padding: 20px;
             margin: auto;
-            top: 40%;
+            top: 50%;
             border: 2px solid white;
-            left: 44%;
+            left: 50%;
            transform: translate(-50%,-50%);
            text-align: center;
-        width: 70%;
+        width: auto;
         }
-     
-        .text h2{
-            font-size: auto;
-            margin-bottom: 15px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            color: white;
-        }
-        .text p{
-            color: white;
-            font-size: auto;
-        }
+
+       
               
     
 
@@ -367,19 +357,6 @@ color: white;
                 vertical-align: middle;
                 margin-right: 20px;
             }
-            .text{
-                position:absolute;
-                padding: 10px;
-                /* top: 50%; */
-                margin: 20px;
-                border: 1px solid white;
-                /* left: 50%; */
-                height: auto;
-                max-width: 100%;
-           
-               /* transform: translate(-50%,-50%); */
-               text-align: center;
             
-            }
            
 }
